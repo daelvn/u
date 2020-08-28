@@ -294,6 +294,8 @@ u.where listOfPlays, {author: "Shakespeare", year: 1611}
 -->  {title: "The Tempest", author: "Shakespeare", year: 1611}}
 ```
 
+<!-- tabs:end -->
+
 ### reject
 
 `reject (t:table, predicate:function) -> any`
