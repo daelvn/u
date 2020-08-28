@@ -1,0 +1,15 @@
+package: u
+source:
+  url: git://github.com/daelvn/u
+description:
+  summary: A port of underscore.js
+  detailed: >
+    u are a port of the JavaScript library underscore.js.
+    u try to be as complete as u can get.
+  homepage: https://github.com/daelvn/u
+dependencies:
+  - lua >= 5.1
+build:
+  type: builtin
+  modules:
+    u: u.lua
